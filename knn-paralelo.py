@@ -4,9 +4,6 @@ import sys
 from collections import Counter
 
 
-# ============================================
-#  KNN SECUNDARIO
-# ============================================
 def euclidean_distance(a, b):
     return np.sqrt(np.sum((a - b) ** 2))
 
